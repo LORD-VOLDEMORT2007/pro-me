@@ -249,7 +249,7 @@ createBullet(){
   player.bulletY = rons[player.index-1].y
   player.update();
 
-  player.bulletVelocity = 10
+  player.bulletVelocity = 1
   player.update();
   
   /*velocity();*/
