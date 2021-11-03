@@ -112,6 +112,10 @@ class Game {
               camera.position.y = rons[index-1].y
               camera.zoom = 5
             }
+            
+            fill ("red")
+            textSize(10)
+            text(allPlayers[plr].name ,rons[index-1].x , rons[index-1].y -10 )
 
             //bullets[index-1].velocityX = bullets[index-1].velocityX - re
             
